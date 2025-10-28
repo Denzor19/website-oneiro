@@ -31,6 +31,14 @@
       "enabled": true,
       "category": "Fries",
       "image": "images/f5.png"
+    },
+    {
+      "enabled": true,
+      "title": "Pizza 2",
+      "description": "Descriere produs",
+      "price": "RON178",
+      "category": "Pizza",
+      "image": "f3"
     }
   ]
 }
