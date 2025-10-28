@@ -1,5 +1,8 @@
 backend:
-  name: test-repo  # For local testing; change to GitHub later
+  name: github
+  repo: Denzor19/website-oneiro
+  branch: main
+  auth_token: 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
 media_folder: "images"
 public_folder: "/images"
 
