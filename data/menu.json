@@ -1,0 +1,36 @@
+{
+  "items": [
+    {
+      "title": "Pizza 1",
+      "description": "descriere produs",
+      "price": "RON15",
+      "enabled": true,
+      "category": "Pizza",
+      "image": "images/f1.png"
+    },
+    {
+      "title": "Fish 1",
+      "description": "descriere produs",
+      "price": "RON15",
+      "enabled": true,
+      "category": "Fish",
+      "image": "images/f2.png"
+    },
+    {
+      "title": "Pasta 1",
+      "description": "descriere produs",
+      "price": "RON15",
+      "enabled": true,
+      "category": "Pasta",
+      "image": "images/f4.png"
+    },
+    {
+      "title": "Fries 1",
+      "description": "descriere produs",
+      "price": "RON15",
+      "enabled": true,
+      "category": "Fries",
+      "image": "images/f5.png"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+backend:
+  name: test-repo  # For local testing; change to GitHub later
+media_folder: "images"
+public_folder: "/images"
+
+collections:
+  - name: "menu"
+    label: "Menu"
+    files:
+      - label: "Menu Items"
+        name: "menu_items"
+        file: "data/menu.json"
+        fields:
+          - label: "Items"
+            name: "items"
+            widget: "list"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "description", widget: "string" }
+              - { label: "Price", name: "price", widget: "string" }
+              - { label: "Enabled", name: "enabled", widget: "boolean", default: true }
+              - { label: "Category", name: "category", widget: "select", options: ["Pizza", "Fish", "Pasta", "Fries"] }
+              - { label: "Image", name: "image", widget: "string" }
